@@ -1,0 +1,117 @@
+body{
+	background-image: url(./img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#gf{
+	position: absolute;
+	left: 13%;
+	background-color: white;
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+	text-align: center;
+	filter: opacity(0.5);
+}
+
+#line{
+	position: relative;
+	left: 20%;
+	width: 3px;
+	height: 100%;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+#title{
+	position: absolute;
+	right: 3%;
+	font-size: 25px;
+	font-weight: 1000;
+	color: white;
+	filter: opacity(0.65);
+}
+
+.contact{
+	position: absolute;
+	bottom: 5%;
+	left: 1%;
+}
+
+.icon{
+	float: left;
+	width: 60px;
+}
+
+.icon1{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+#qrqq{
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	display: none;
+}
+
+#qrWechat{
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	display: none;
+}
+
+#qrGithub{
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	display: none;
+}
+
+.content{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 700px;
+	left: 208px;
+	top: 10px;
+	font-size: 20px;
+	font-weight: 10px;
+	font-family: FangSong;
+	overflow: scroll;
+}
+
+.content::-webkit-scrollbar {
+	display: none;
+}
+
+.ctt{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	width: 170px;
+	cursor: pointer;
+}
+
+.index{
+	position: absolute;
+	width: 780px;
+	height: 650px;
+	padding: 0px;
+	margin: 50px;
+	margin-bottom: 0px;
+	left: 400px;
+}
+
+.ctt:hover{
+	background-color: white;
+	filter: opacity(0.7);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学无止境——黄球杰的前端学习博客</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="./img/man.ico">
+</head>
+<body>
+	<!-- 中央白纱与分割线 -->
+	<div id="gf">
+		<div id="line"></div>
+	</div>
+	
+	<!-- 右上标题 -->
+	<div id="title">学无止境<br><br>前端学习博客<br>author: AlanJIE</div>
+	
+	<!-- 左下联系方式 -->
+		<!-- 联系方式图标 -->
+	<div class="contact">
+		<div class="icon" id="iconqq" onmouseover="qqIn()" onmouseout="qqOut()"><img  class="icon1" src="./img/qq.png" alt="QQ"></div>
+		<div class="icon" id="iconWechat" onmouseover="wechatIn()" onmouseout="wechatOut()"><img  class="icon1" src="./img/wechat.png" alt="WeChat"></div>
+		<div class="icon" id="iconGithub" onmouseover="githubIn()" onmouseout="githubOut()"><a href="https://github.com/BoboJIE" target="_blank"><img  class="icon1" src="./img/GitHub.png" alt="GitHub"></a></div>
+	</div>
+		<!-- 二维码 -->
+	<div id="qrqq"><img src="./img/qrcode/qq.jpg" alt="" width="180px"></div>
+	<div id="qrWechat"><img src="./img/qrcode/wechat.png" alt="" width="180px"></div>
+	<div id="qrGithub"><img src="./img/qrcode/github.jpg" alt="" width="180px"></div>
+
+	<!-- 目录 -->
+	<div class="content">
+		<ul class="ctt" onclick="firstDay()">第一天</ul>
+		<ul class="ctt" onclick="secondDay()">第二天</ul>
+	</div>
+
+	<!-- 内容 -->
+	<!-- <div class="index"> -->
+		<iframe src="./content/firstDay.html" frameborder="0" id="index" class="index"></iframe>
+	<!-- </div> -->
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+	
