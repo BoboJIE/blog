@@ -36,7 +36,11 @@ function githubOut(){
 	function firstDay(){
 		index.src="./content/firstDay.html"
 	}
-
+	
 	function secondDay(){
 		index.src="./content/secondDay.html"
+	}
+	
+	function selecter(){
+		index.src="./content/selecter.html"
 	}
