@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    文档流<br><br>
+    个人觉得做网页有点像做雕塑，先塑其形，再细细雕琢。<br>
+    文档流就是先塑其形。先有一个默认的排序方式，所有元素都遵守这个规则，这个排序方式很粗糙，但是就是可以大致勾勒出前端的形状<br>
+    默认的文档流是自上而下，块级元素垂直分布，每个元素都显示在上一个元素的新行上，上下两个元素都有外边距，取较大的外边距作为两个元素之间的间隔，这个取较大边距的行为有个专有名词叫“外边距塌陷”（span是特殊的不遵守默认文档流的标签，它不会换行，而是继续在同一行中显示）<br>
+    还有一个脱离正常文本流的float浮动属性，这个我还要再学习学习，现在有点看不懂。<br><br>
+    position定位<br><br>
+    元素的position属性有static,relative,absolute,fixed等常用的值，下面我一一介绍不同值的作用<br><br>
+    static: 静态定位，position属性的默认值，就是把元素放在它再文档流中的正常位置<br><br>
+    relative: 相对定位，中文意思相对的，意思就是相对与正常的文档流做相对移动。要注意的是，用了相对定位的元素原来的那个正常位置该怎样还是怎样。比如说一个absDIV夹在两个DIV中间，那个DIV做了相对定位，但是它原来那个位置的空位依然存在。<br><br>
+    absolute: 绝对定位，脱离正常的文档流，我自己排出自己的风格，并且始终固定在网页的指定位置，好像是黏在了网页上<br><br>
+    fixed: 固定定位，脱离正常的文档流，我自己排出自己的风格，并且始终固定在视场的指定位置，好像是黏在了视场上<br><br>
+    注意了，虽然absolute和fixed的描述区别不大，但其实他们有本质的区别，我简单抽象出来：把网页想象成一张纸，视场想象为眼睛，同样是固定在指定位置，absolute固定在纸上，而fixed固定在眼睛上，所以你滚动这张纸，你能把absolute元素滚动起来，但是你无法把fixed元素滚动起来，这就是区别所在
+
+</body>
+</html>

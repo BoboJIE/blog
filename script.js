@@ -44,3 +44,7 @@ function githubOut(){
 	function selecter(){
 		index.src="./content/selecter.html"
 	}
+
+	function position(){
+		index.src="./content/position.html"
+	}
